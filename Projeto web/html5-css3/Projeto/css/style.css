@@ -52,8 +52,7 @@ nav::after {
 #logo {
     width: 50px;
     height: 50px;
-    line-height: 100px;
-    margin: 0;
+    margin:25px;
 }
 
 .nav-container ul {
@@ -77,4 +76,49 @@ nav::after {
 
 .nav-container li a:hover {
     color: #3381f3; 
+}
+/*Banner*/
+#main-banner{
+    background: url('../img/banner6.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0 100%;
+    position: relative;
+    margin-top: 100px;
+    width: 100vw;
+}
+#search-form{
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    text-align: center;
+}
+#search-form h1{
+    font-size: 40px;
+}
+#search-form p{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 300px;
+}
+#search-form input, #search-form select{
+    background-color: #FFF;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+}
+#search-form input[type=submit]{
+    background-color: #3381f3;
+    text-transform: uppercase;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#search-form input[type=submit]:hover{
+    background-color:  #2B79EB;
 }
