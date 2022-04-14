@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, inicial-scale=1.0">
         <title>JobFinder</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.Linkedingapis.com">
+        <link href="https://fonts.Linkedingapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/158565f28b.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -27,16 +27,109 @@
                         <h1>A maneira mais fácil de encontrar seu novo emprego</h1>
                         <p>Conecte-se de forma gratuita as melhores empresas e consiga o emprego dos seus sonhos.</p>
                         <form>
-                            <input type="text" name="job" placeholder="Digite o cargo">
-                            <select name="region"></select>
+                                <input type="text" name="job" placeholder="Digite o cargo">
+                                <select name="region"></select>
+                            
+                                <select name="category">
+                                    <option value="">Categoria</option>
+                                </select>
+                                <input type="submit" value="Pesquisar">
                         </form>
-                        <select name="category">
-                            <option value="">Categoria</option>
-                        </select>
-                        <input type="submit" value="Pesquisar">
                     </div>
                 </div>
             </header>
+            <main id="lastjobs-container" class="wrapper">
+                <h1>Últimas vagas enviadas</h1>
+                <ul>
+                    <li>
+                        <a href="#" class="clickarea">
+                            <div class="company-box">
+                                <img src="img/googlelogo.png">
+                                <div class="company-info">
+                                    <h3>Developer</h3>
+                                    <p>Google</p>
+                                </div>
+                            </div>
+
+                            <div class="locality">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Mountain View, California</p>
+                            </div>
+
+                            <div class="job-type">
+                                <span class="clt">CLT</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="clickarea">
+                            <div class="company-box">
+                                <img src="img/ibmlogo.png">
+                                <div class="company-info">
+                                    <h3>DBA</h3>
+                                    <p>IBM</p>
+                                </div>
+                            </div>
+
+                            <div class="locality">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Armok, New York</p>
+                            </div>
+
+                            <div class="job-type">
+                                <span class="pj">PJ</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="clickarea">
+                            <div class="company-box">
+                                <img src="img/linkedinlogo.png">
+                                <div class="company-info">
+                                    <h3>Front-End Developer</h3>
+                                    <p>LinkedIn</p>
+                                </div>
+                            </div>
+
+                            <div class="locality">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Sunnyvale, California</p>
+                            </div>
+
+                            <div class="job-type">
+                                <span class="homeoffice">Home Office</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="clickarea">
+                            <div class="company-box">
+                                <img src="img/facebooklogo.png">
+                                <div class="company-info">
+                                    <h3>Full Stack Developer</h3>
+                                    <p>Facebook</p>
+                                </div>
+                            </div>
+
+                            <div class="locality">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Menlo Park, California</p>
+                            </div>
+
+                            <div class="job-type">
+                                <span class="pj">Pj</span>
+                            </div>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <div class="btnjobs-container">
+                    <a href="#" class="btn-jobs">Ver mais vagas</a>
+                </div>
+            </main>
         </div>
     </body>
 </html>

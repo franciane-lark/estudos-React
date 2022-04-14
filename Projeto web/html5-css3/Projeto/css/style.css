@@ -81,7 +81,7 @@ nav::after {
 #main-banner{
     background: url('../img/banner6.jpg') no-repeat;
     background-size: cover;
-    background-position: 0 100%;
+    background-position: 0 55%;
     position: relative;
     margin-top: 100px;
     width: 100vw;
@@ -121,4 +121,35 @@ nav::after {
 }
 #search-form input[type=submit]:hover{
     background-color:  #2B79EB;
+}
+/* seção de últimos empregos*/
+#lastjobs-container{
+    text-align: center;
+    padding: 100px 0;
+}
+.wrapper{
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lastjobs-container h1{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+#lastjobs-container ul{
+    padding: 0;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+#lastjobs-container ul li{
+    list-style: none;
+    text-align: left;
+    border-bottom: solid 1px #CCC;
+    height: 80px;
+    position: relative;
+}
+#lastjobs-container ul li:last-child{
+    border: none;
 }
