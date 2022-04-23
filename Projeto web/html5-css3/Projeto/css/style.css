@@ -130,7 +130,7 @@ nav::after {
 .wrapper{
     max-width: 1200px;
     position: relative;
-    margin-left: auto;
+    margin-left: 100vh;
     margin-right: auto;
 }
 
@@ -152,4 +152,34 @@ nav::after {
 }
 #lastjobs-container ul li:last-child{
     border: none;
+}
+.clickarea{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* company img*/
+.company-box{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    padding-left: 1%;
+}
+.company-box img{
+    width: 100px;
+    margin-top: 2.5px;
+}
+.company-info{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: left;
+    position: absolute;
+}
+.company-info h3{
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
