@@ -1,4 +1,4 @@
-# Documentação
+# Ordem dos Cursos
 
 - Prof Matheus Battisti - Hora de Codar
 
